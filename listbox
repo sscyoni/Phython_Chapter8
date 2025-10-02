@@ -1,0 +1,12 @@
+from tkinter import*
+
+root = Tk()
+
+lb = Listbox(root,height=7)
+lb.pack()
+lb.insert(END,"Pyhton")
+lb.insert(END,"C")
+lb.insert(END,"Java")
+lb.insert(END,"Swift")
+
+root.mainloop()

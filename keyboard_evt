@@ -1,0 +1,12 @@
+from tkinter import *
+
+def ket_press (event):
+    print("키가 눌렸습ㄴ;디:",event.keysym)
+
+root = Tk()
+root.geometry("200x200")
+        
+root.bind("<Key>",ket_press)
+root.focus_set()
+
+root.mainloop()
